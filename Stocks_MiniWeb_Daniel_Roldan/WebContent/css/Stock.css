@@ -1,0 +1,92 @@
+@charset "ISO-8859-1";
+
+table {
+	border-collapse:collapse;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-right: 10%;
+	margin-left: 10%;
+	width: 80%;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+#stocksTable tr:nth-child(even){background-color: lightgreen;}
+#stocksTable tr:nth-child(odd){background-color: white;}
+#stocksTable tr:hover {background-color: lightgray;}
+
+#stocksTable th{
+	background-color: #00ff00;
+	font-family: Arial;
+	color: white;
+}
+
+nav{
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 20px;
+	width: 80%;
+	overflow: auto;
+}
+
+nav a{	
+	float: left;
+	font-size: 25px;
+	width: 33%;
+	background-color: gray;
+	text-transform:uppercase;
+	font-family: Arial;
+	text-align: center;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	border: 1px solid darkgray;
+}
+
+nav a:hover{
+	background-color: #dfdfdf;
+	color:black;
+}
+
+.formCSS, h1{
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 20px;
+	width: 30%;
+}
+
+.formCSS{
+	background-color:lightgray;
+}
+
+.formCSS textarea {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 95%;
+	height: 50px;
+	/*
+	margin-left: 15%;
+	margin-right: 15%;
+	*/
+}
+
+.submitButton{
+	background-color:lightgreen;
+	width: auto;
+	height: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	text-decoration: none;
+	text-transform:uppercase;
+	text-align:center;
+	border-radius:4px;
+	border: 2px solid darkgray;
+	float: right;
+}
+
+.submitButton:hover{
+	background-color:green;
+	color:white;
+}
